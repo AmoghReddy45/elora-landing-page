@@ -37,7 +37,8 @@ const TailorMadeSection = () => {
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl">
               Deploy AI agents designed to match your goals, your systems, and
-              your standards — without requiring AI expertise. Integrate
+              your standards — without requiring AI expertise. Integrates with
+              your existing helpdesk and CRM in minutes, not months. Integrate
               directly into your workflows, systems, and knowledge base,
               empowering your agents to take real action on behalf of your
               customers.
@@ -58,7 +59,8 @@ const TailorMadeSection = () => {
                     <p className="text-xl font-medium">{point.title}</p>
                   </div>
                   <div
-                    className={`ml-9 overflow-hidden transition-all duration-300 ${activePoint === index ? "h-[80px] opacity-100 bg-primary/5 p-3 rounded-lg" : "h-0 opacity-0"}`}
+                    className={`ml-9 overflow-hidden transition-all duration-300 ${activePoint === index ? "opacity-100 bg-primary/5 p-3 rounded-lg" : "h-0 opacity-0"}`}
+                    style={{ height: activePoint === index ? "auto" : "0px" }}
                   >
                     <p className="text-base text-gray-500">
                       {point.description}
@@ -112,7 +114,8 @@ const TailorMadeSection = () => {
               </div>
             </div>
 
-            <div className="space-y-4">
+            {/* Fixed height chat container to prevent layout shifts */}
+            <div className="space-y-4 min-h-[280px]">
               <div className="bg-muted/30 p-4 rounded-lg">
                 <p className="text-sm text-muted-foreground">
                   How can I help you today?
