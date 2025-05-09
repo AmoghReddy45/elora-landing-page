@@ -45,7 +45,7 @@ const HeroSection = ({
       <div className="relative z-20 max-w-5xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
         <div className="mb-4">
           <span className="text-primary bg-primary/20 px-4 py-2 rounded-full text-sm font-medium inline-block">
-            The Future of AI Customer Engagement
+          Elevate Your Customer Service. Delight Every User.
           </span>
         </div>
         <h1

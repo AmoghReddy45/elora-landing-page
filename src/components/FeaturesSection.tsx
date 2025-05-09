@@ -55,7 +55,7 @@ const FeaturesSection = () => {
       icon: <CheckCircle2Icon className="h-6 w-6" />,
       title: "Reliable, End-to-End Resolution",
       description:
-        "Our AI agents resolve up to 95% of customer queries without human intervention, handling complex issues with ease. The system automatically identifies customer needs, processes requests, and delivers solutions in real-time, ensuring consistent and accurate responses every time.",
+        "Our AI agents resolve up to 95% of customer queries instantly with higher first-contact resolution. The system automatically identifies needs, processes requests, and delivers real-time solutions with seamless human handoffs when needed. Handle 5x more queries while 75% of inquiries are resolved in minutes, ensuring consistent and accurate responses every time.",
       visual: <ReliableResolutionVisual />,
       isReversed: false,
     },
@@ -63,7 +63,7 @@ const FeaturesSection = () => {
       icon: <Workflow className="h-6 w-6" />,
       title: "Action-Driven, Not Just Conversational",
       description:
-        "Beyond simple chat, our AI performs actions, processes transactions, and delivers real solutions in real-time. The platform integrates seamlessly with your existing systems to not just talk about solving problems but actually solve them, reducing resolution time by up to 80%.",
+        "Beyond simple chat, our AI performs actions, processes transactions, and delivers real solutions in real-time. Never make your users wait for help, even at 2 A.M. The platform integrates with your systems to actually solve problems, reducing resolution time by up to 80%.",
       visual: <ActionDrivenVisual />,
       isReversed: true,
     },
@@ -71,7 +71,7 @@ const FeaturesSection = () => {
       icon: <BarChart3Icon className="h-6 w-6" />,
       title: "Onboarding and Growth Without Friction",
       description:
-        "Seamlessly integrate with your existing systems and scale your customer service operations without adding complexity. Our platform adapts to your business needs, allowing you to onboard new products, services, and team members with minimal training and maximum efficiency.",
+        "Cut support costs and scale your customer service operations without adding complexity. Our platform acts as your agents' super-assistant, tackling FAQs and reducing repetitive tasks. This empowers your support team with improved workflows, easier ticket management, less burnout, and faster onboarding for new team members.",
       visual: <GrowthVisual />,
       isReversed: false,
     },
