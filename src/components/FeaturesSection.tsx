@@ -84,7 +84,7 @@ const FeaturesSection = () => {
   return (
     <section id="features" className="bg-[#F9F9FC] py-4.5 lg:py-5.5">
       <div className="container mx-auto px-4">
-        <div className="mb-3.5 lg:mb-5.5 text-center">
+        <div className="mb-8 lg:mb-14 text-center">
           <h2 className="mb-5 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
             A New Standard for Customer Support
           </h2>
