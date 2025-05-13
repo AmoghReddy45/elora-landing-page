@@ -26,7 +26,9 @@ const Feature = ({
     <div className="flex flex-col gap-2.5 items-center mb-5.5 lg:mb-7 lg:flex-row lg:items-center lg:gap-4.5">
       {/* Content Section */}
       <div
-        className={`w-full lg:w-1/2 ${isReversed ? "lg:order-2" : "lg:order-1"}`}
+        className={`w-full lg:w-1/2 ${
+          isReversed ? "lg:order-2 lg:pl-8" : "lg:order-1"
+        }`}
       >
         <div className="flex items-center gap-3 mb-4">
           <div className="rounded-full bg-primary/10 p-2 text-primary">
@@ -41,7 +43,9 @@ const Feature = ({
 
       {/* Image Section */}
       <div
-        className={`w-full lg:w-1/2 ${isReversed ? "lg:order-1" : "lg:order-2"}`}
+        className={`w-full lg:w-1/2 ${
+          isReversed ? "lg:order-1 lg:pr-8" : "lg:order-2"
+        }`}
       >
         {visual}
       </div>
@@ -53,9 +57,9 @@ const FeaturesSection = () => {
   const features = [
     {
       icon: <CheckCircle2Icon className="h-6 w-6" />,
-      title: "Reliable, End-to-End Resolution",
+      title: "Capturing Opportunities",
       description:
-        "Our AI agents resolve up to 95% of customer queries instantly with higher first-contact resolution. The system automatically identifies needs, processes requests, and delivers real-time solutions with seamless human handoffs when needed. Handle 5x more queries while 75% of inquiries are resolved in minutes, ensuring consistent and accurate responses every time.",
+        "Our AI agents instantly engage prospects across all channels, qualifying leads and capturing requirements 24/7. The system identifies customer needs, schedules consultations, and delivers personalized information with up to 95% accuracy. Never miss a potential client, even at 2 A.M., while ensuring consistent and accurate responses every time. Handle 5x more inquiries with 75% resolved in minutes.",
       visual: <ReliableResolutionVisual />,
       isReversed: false,
     },
@@ -63,7 +67,7 @@ const FeaturesSection = () => {
       icon: <Workflow className="h-6 w-6" />,
       title: "Action-Driven, Not Just Conversational",
       description:
-        "Beyond simple chat, our AI performs actions, processes transactions, and delivers real solutions in real-time. Never make your users wait for help, even at 2 A.M. The platform integrates with your systems to actually solve problems, reducing resolution time by up to 80%.",
+        "Beyond simple conversations, our AI navigates complex processes, accesses information systems, and delivers tangible results. The platform integrates with your existing tools to solve actual problems—processing transactions, answering detailed questions, and guiding customers through their journey. This reduces resolution time by up to 80% and ensures your customers receive real solutions, not just promises.",
       visual: <ActionDrivenVisual />,
       isReversed: true,
     },
@@ -71,7 +75,7 @@ const FeaturesSection = () => {
       icon: <BarChart3Icon className="h-6 w-6" />,
       title: "Onboarding and Growth Without Friction",
       description:
-        "Cut support costs and scale your customer service operations without adding complexity. Our platform acts as your agents' super-assistant, tackling FAQs and reducing repetitive tasks. This empowers your support team with improved workflows, easier ticket management, less burnout, and faster onboarding for new team members.",
+        "Cut operational costs and scale your customer service without adding complexity. Our platform acts as your team's super-assistant, handling routine inquiries and reducing repetitive tasks. This empowers your staff to focus on high-value activities with improved workflows, easier case management, less burnout, and faster onboarding for new team members.",
       visual: <GrowthVisual />,
       isReversed: false,
     },

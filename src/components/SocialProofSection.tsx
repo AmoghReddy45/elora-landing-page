@@ -100,26 +100,26 @@ const HealthcarePoints: IndustryPointProps[] = [
   },
 ];
 
-const LegalServicesPoints: IndustryPointProps[] = [
+const RealEstatePoints: IndustryPointProps[] = [
   {
-    title: "Client Onboarding and Case Updates",
+    title: "Instant Lead Capture and Qualification",
     description:
-      "Empower clients with real-time case status updates and document guidance through secure AI interactions.",
+      "Never miss a potential buyer or seller with 24/7 response that qualifies leads and schedules agent consultations.",
   },
   {
-    title: "Smart Intake Forms",
+    title: "Listing Information On Demand",
     description:
-      "Streamline client information collection with intelligent, adaptive forms.",
+      "Answer detailed questions about your properties instantly, providing accurate information on pricing and features.",
   },
   {
-    title: "Case Resolution Progress Tracking",
+    title: "Team Productivity",
     description:
-      "Keep clients informed with transparent progress updates throughout their case.",
+      "Free your estate agents to focus on closing deals by automating follow-ups and routine client communications.",
   },
   {
-    title: "Document Review Assistance",
+    title: "Client Journey Management",
     description:
-      "Accelerate document review processes with AI-powered analysis and extraction of key information.",
+      "Guide clients through each step of their transaction with timely updates and process explanations.",
   },
 ];
 
@@ -127,7 +127,7 @@ const SocialProofSection = ({}: SocialProofSectionProps) => {
   const [activeTab, setActiveTab] = useState("SaaS");
   const [activePoint, setActivePoint] = useState<number>(0);
 
-  const tabs = ["SaaS", "Fintech", "Healthcare", "Legal Services"];
+  const tabs = ["SaaS", "Fintech", "Healthcare", "Real Estate"];
 
   const getActivePoints = () => {
     switch (activeTab) {
@@ -137,8 +137,8 @@ const SocialProofSection = ({}: SocialProofSectionProps) => {
         return FintechPoints;
       case "Healthcare":
         return HealthcarePoints;
-      case "Legal Services":
-        return LegalServicesPoints;
+      case "Real Estate":
+        return RealEstatePoints;
       default:
         return SaaSPoints;
     }
@@ -157,8 +157,8 @@ const SocialProofSection = ({}: SocialProofSectionProps) => {
               Built for Industries Where Experience Matters
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl">
-              Tailored AI solutions for SaaS, Fintech, Healthcare, and Legal
-              Services.
+              Tailored AI solutions for SaaS, Fintech, Healthcare, and Real
+              Estate.
             </p>
 
             {/* Industry Tabs */}

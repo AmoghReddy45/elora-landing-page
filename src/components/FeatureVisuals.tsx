@@ -21,7 +21,7 @@ export const ReliableResolutionVisual = () => {
                 />
               </div>
               <span className="font-semibold tracking-normal">
-                Elora Finance
+                Elora Estate
               </span>
             </div>
             <div className="flex items-center gap-2 text-green-500 bg-green-50 px-3 py-1 rounded-full text-sm">
@@ -33,32 +33,33 @@ export const ReliableResolutionVisual = () => {
           <div className="flex-1 flex flex-col space-y-3 overflow-y-auto">
             <div className="bg-muted/30 p-3 rounded-lg max-w-[80%]">
               <p className="text-sm">
-                How can I help you with your finances today?
+                How can I help you find your ideal property today?
               </p>
             </div>
 
             <div className="bg-primary/5 p-3 rounded-lg max-w-[80%] self-end border-r-2 border-primary">
               <p className="text-sm">
-                I need to dispute a transaction on my credit card
+                I'm interested in properties in the Cedar Park area with at
+                least 3 bedrooms
               </p>
             </div>
 
             <div className="bg-muted/30 p-3 rounded-lg max-w-[80%]">
               <p className="text-sm">
-                I can help with that. I see a recent transaction for $89.99 at
-                TechStore. Is this the one you want to dispute?
+                I'd be happy to help! I see you're looking for at least 3
+                bedrooms in Cedar Park. What's your approximate budget range?
               </p>
             </div>
 
             <div className="bg-primary/5 p-3 rounded-lg max-w-[80%] self-end border-r-2 border-primary">
-              <p className="text-sm">Yes, that's the one</p>
+              <p className="text-sm">Around $450,000 to $550,000</p>
             </div>
 
             <div className="bg-muted/30 p-3 rounded-lg max-w-[80%]">
               <p className="text-sm">
-                I've initiated a dispute for the $89.99 transaction. You'll
-                receive a temporary credit while we investigate. A confirmation
-                has been sent to your email.
+                Great! I've found 8 properties matching your criteria. Would you
+                like to schedule a viewing with one of our agents? We have
+                availability tomorrow at 3:00 PM or Saturday at 10:00 AM.
               </p>
             </div>
           </div>
@@ -66,7 +67,7 @@ export const ReliableResolutionVisual = () => {
           <div className="mt-4 pt-3 border-t border-border">
             <div className="flex items-center justify-center bg-green-50 text-green-600 py-2 rounded-lg">
               <CheckCircle2 size={16} className="mr-2" />
-              <p className="text-sm font-medium">Dispute Filed Successfully</p>
+              <p className="text-sm font-medium">Lead Qualified</p>
             </div>
           </div>
         </div>
@@ -89,9 +90,7 @@ export const ActionDrivenVisual = () => {
                   className="h-full w-auto"
                 />
               </div>
-              <span className="font-semibold tracking-normal">
-                Elora Health
-              </span>
+              <span className="font-semibold tracking-normal">Elora SaaS</span>
             </div>
             <div className="flex items-center gap-2 text-blue-500 bg-blue-50 px-3 py-1 rounded-full text-sm">
               <ArrowRight size={16} />
@@ -102,39 +101,42 @@ export const ActionDrivenVisual = () => {
           <div className="flex-1 flex flex-col space-y-3 overflow-y-auto">
             <div className="bg-primary/5 p-3 rounded-lg max-w-[80%] self-end border-r-2 border-primary">
               <p className="text-sm">
-                I need to schedule a follow-up appointment with Dr. Smith
+                I need to upgrade my subscription plan but keep getting an error
               </p>
             </div>
 
             <div className="bg-muted/30 p-3 rounded-lg max-w-[80%]">
               <p className="text-sm">
-                I can help schedule that appointment. Dr. Smith has availability
-                next Tuesday at 2:00 PM or Thursday at 10:00 AM. Which works
-                better for you?
+                I can help with that upgrade. Looking at your account, I see
+                you're trying to move from Basic to Pro. There's an outstanding
+                invoice that's blocking the upgrade. Would you like me to
+                process that payment now?
               </p>
             </div>
 
             <div className="bg-primary/5 p-3 rounded-lg max-w-[80%] self-end border-r-2 border-primary">
-              <p className="text-sm">Tuesday at 2:00 PM works best</p>
+              <p className="text-sm">
+                Yes, please process it with my card on file
+              </p>
             </div>
 
             <div className="bg-muted/30 p-3 rounded-lg max-w-[80%]">
               <p className="text-sm">
-                Great! I've scheduled your appointment with Dr. Smith for
-                Tuesday at 2:00 PM. Would you like me to send you a calendar
-                invitation and reminder?
+                Payment processed successfully! I've now upgraded your account
+                to the Pro plan. All new features are active immediately. I've
+                also applied a 10% loyalty discount for the inconvenience.
               </p>
             </div>
 
             <div className="bg-primary/5 p-3 rounded-lg max-w-[80%] self-end border-r-2 border-primary">
-              <p className="text-sm">Yes please</p>
+              <p className="text-sm">Thank you!</p>
             </div>
           </div>
 
           <div className="mt-4 pt-3 border-t border-border">
             <div className="flex items-center justify-center bg-blue-50 text-blue-600 py-2 rounded-lg">
               <ArrowRight size={16} className="mr-2" />
-              <p className="text-sm font-medium">Appointment Confirmed</p>
+              <p className="text-sm font-medium">Issue Resolved</p>
             </div>
           </div>
         </div>
@@ -183,7 +185,7 @@ export const GrowthVisual = () => {
                   </div>
                   <span>Potential Clients</span>
                 </div>
-                <div className="text-lg font-semibold">245,550</div>
+                <div className="text-lg font-semibold">245</div>
               </div>
 
               {/* Pipeline Value */}
